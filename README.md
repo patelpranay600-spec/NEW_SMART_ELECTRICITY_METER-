@@ -75,7 +75,7 @@ smart_meter_xai_system/
 
 5. **Launch Streamlit Frontend Locally**:
    ```bash
-   streamlit run streamlit_app.py
+   streamlit run dashboard.py
    ```
 
 ---
