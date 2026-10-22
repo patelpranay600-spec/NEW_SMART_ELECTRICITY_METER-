@@ -1,0 +1,2 @@
+Timestamp,Electricity_Consumed,Temperature,Humidity,Wind_Speed,Avg_Past_Consumption,Anomaly_Label
+2024-04-15 04:00:00,0.812,0.524,0.498,0.465,0.458,Unknown

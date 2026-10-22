@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  smart-meter-xai:
+    build: .
+    container_name: smart_meter_xai_live
+    ports:
+      - "8000:8000"
+      - "8501:8501"
+    environment:
+      - PORT=8000
+    volumes:
+      - ./artifacts:/app/artifacts
+      - ./data:/app/data
+    restart: always
